@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "email": "user1@gmail.com",
+      "password": "$2a$10$rrk5MZH8Qcu3FsU.015u8uCh93FAnAiqZG9a14sOio16RbbO8iMEa",
+      "name": "user1",
+      "id": 1
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$Bari79oAbYp6BMGT1OGMV.aTlvEcPOrjPrPN74T.g53tcSeo.P2t2",
+      "name": "user2",
+      "id": 2
+    },
+    {
+      "email": "user3@gmail.com",
+      "password": "$2a$10$vJGDI7pI7GPQ1yEr/JSh7ev4NWD2rvkUHjjxQsGVpSpAeYuPywOXe",
+      "name": "user3",
+      "id": 3
+    }
+  ],
+  "avatars": [
+    {
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      "userId": 1,
+      "userEmail": "user1@gmail.com",
+      "id": 1
+    },
+    {
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+      "userId": 2,
+      "userEmail": "user2@gmail.com",
+      "id": 2
+    },
+    {
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/3.jpg",
+      "userId": 3,
+      "userEmail": "user3@gmail.com",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "author": "user1@gmail.com",
+      "team": "design",
+      "title": "E-commerce project",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      "stage": "review",
+      "createdAt": "2022-09-27T16:36:42.095Z",
+      "id": 1
+    },
+    {
+      "author": "user1@gmail.com",
+      "team": "tech",
+      "title": "Multi-vendor E-commerce",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      "stage": "done",
+      "createdAt": "2022-09-27T16:37:14.876Z",
+      "id": 2
+    },
+    {
+      "author": "user1@gmail.com",
+      "team": "tech",
+      "title": "Ride Sharing App",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      "stage": "ready",
+      "createdAt": "2022-09-27T16:37:30.996Z",
+      "id": 3
+    },
+    {
+      "author": "user1@gmail.com",
+      "team": "tech",
+      "title": "Car Selling Project",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      "stage": "backlog",
+      "createdAt": "2022-09-27T16:38:45.652Z",
+      "id": 4
+    },
+    {
+      "author": "user2@gmail.com",
+      "team": "tech",
+      "title": "Chat App",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+      "stage": "backlog",
+      "createdAt": "2022-09-27T16:40:17.372Z",
+      "id": 5
+    },
+    {
+      "author": "user2@gmail.com",
+      "team": "tech",
+      "title": "Expense Tracker",
+      "avatar": "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+      "stage": "backlog",
+      "createdAt": "2022-09-27T16:40:35.372Z",
+      "id": 6
+    }
+  ],
+  "teams": [
+    {
+      "name": "design",
+      "title": "Design team is awesome",
+      "color": "#ff0000",
+      "author": {
+        "email": "user1@gmail.com",
+        "name": "user1",
+        "id": 1
+      },
+      "members": [
+        "user1@gmail.com",
+        "user3@gmail.com"
+      ],
+      "createdAt": "2022-09-27T16:32:27.397Z",
+      "id": 1
+    },
+    {
+      "name": "tech",
+      "title": "Tech team is cool",
+      "color": "#ff00ff",
+      "author": {
+        "email": "user2@gmail.com",
+        "name": "user2",
+        "id": 2
+      },
+      "members": [
+        "user2@gmail.com",
+        "user1@gmail.com"
+      ],
+      "createdAt": "2022-09-27T16:33:21.892Z",
+      "id": 2
+    },
+    {
+      "name": "ui",
+      "title": "UI team is multi-talented",
+      "color": "#00008B",
+      "author": {
+        "email": "user3@gmail.com",
+        "name": "user3",
+        "id": 3
+      },
+      "members": [
+        "user3@gmail.com"
+      ],
+      "createdAt": "2022-09-27T16:35:01.612Z",
+      "id": 3
+    },
+    {
+      "name": "rocket",
+      "title": "rocket is marvelous",
+      "color": "#00FFFF",
+      "author": {
+        "email": "user3@gmail.com",
+        "name": "user3",
+        "id": 3
+      },
+      "members": [
+        "user3@gmail.com"
+      ],
+      "createdAt": "2022-09-27T16:35:39.940Z",
+      "id": 4
+    }
+  ]
+}
